@@ -50,6 +50,12 @@ under the License.
          <artifactId>micrometer-registry-prometheus</artifactId>
          <version>1.4.0</version>
       </dependency>
+      <!-- seems to be required by micrometer and not installed by the broker -->
+      <dependency>
+         <groupId>org.latencyutils</groupId>
+         <artifactId>LatencyUtils</artifactId>
+         <version>2.0.3</version>
+      </dependency>
    </dependencies>
 
    <build>
