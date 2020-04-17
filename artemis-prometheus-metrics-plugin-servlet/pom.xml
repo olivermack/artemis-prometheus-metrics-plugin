@@ -41,13 +41,13 @@ under the License.
       <dependency>
          <groupId>io.micrometer</groupId>
          <artifactId>micrometer-core</artifactId>
-         <version>1.1.4</version>
+         <version>1.4.0</version>
          <scope>provided</scope> <!-- this is provided by the broker -->
       </dependency>
       <dependency>
          <groupId>io.micrometer</groupId>
          <artifactId>micrometer-registry-prometheus</artifactId>
-         <version>1.1.4</version>
+         <version>1.4.0</version>
          <scope>provided</scope> <!-- this will be provided by the artemis-prometheus-metrics-plugin uber jar -->
       </dependency>
    </dependencies>
